@@ -1,0 +1,129 @@
+.dots-1 {
+    aside {
+        place-self: center;
+    }
+    :first-child {
+        display: inline;
+    }
+}
+.dots-2 {
+    aside {
+        place-self: center;
+    }
+    :nth-child(1) {
+        display: inline;
+        grid-column-start: 1;
+        place-self: flex-end;
+    }
+    :nth-child(2) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+}
+.dots-3 {
+    aside {
+        place-self: center;
+    }
+    :nth-child(1) {
+        display: inline;
+        grid-column-start: 1;
+    }
+    :nth-child(2) {
+        display: inline;
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+    :nth-child(3) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+}
+.dots-4 {
+    aside {
+        place-self: center;
+    }
+    :nth-child(1) {
+        display: inline;
+        grid-column-start: 1;
+    }
+    :nth-child(2) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    :nth-child(3) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    :nth-child(4) {
+        display: inline;
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+}
+.dots-5 {
+    aside {
+        place-self: center;
+    }
+    :nth-child(1) {
+        display: inline;
+        grid-column-start: 1;
+    }
+    :nth-child(2) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    :nth-child(3) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    :nth-child(4) {
+        display: inline;
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+    :nth-child(5) {
+        display: inline;
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+}
+.dots-6 {
+    aside {
+        place-self: center;
+    }
+    :nth-child(1) {
+        display: inline;
+        grid-column-start: 1;
+    }
+    :nth-child(2) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 1;
+    }
+    :nth-child(3) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    :nth-child(4) {
+        display: inline;
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+    :nth-child(5) {
+        display: inline;
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    :nth-child(6) {
+        display: inline;
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+}

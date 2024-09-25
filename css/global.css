@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.dice {
+    width: 100px;
+    height: 100px;
+
+    border: 3px solid black;
+    border-radius: 8px;
+
+    display: grid;
+}
+
+aside {
+    height: 18px;
+    width: 18px;
+    background-color: black;
+    border-radius: 100%;
+}
